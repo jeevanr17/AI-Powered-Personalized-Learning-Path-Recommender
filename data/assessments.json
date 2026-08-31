@@ -1,0 +1,222 @@
+[
+  {
+    "id": "ml-foundations",
+    "title": "Machine Learning Foundations",
+    "description": "Covers fundamentals, evaluation, and feature engineering.",
+    "skills": ["Machine Learning", "Model Evaluation", "Feature Engineering"],
+    "questions": [
+      {
+        "id": "q1",
+        "skill": "Machine Learning",
+        "question": "Which of the following is the primary goal of supervised learning?",
+        "options": [
+          "To cluster unlabeled data",
+          "To predict a target using labeled examples",
+          "To reduce dimensionality",
+          "To generate synthetic data"
+        ],
+        "answer": "B",
+        "explanation": "Supervised learning learns mappings from labeled examples to target outputs."
+      },
+      {
+        "id": "q2",
+        "skill": "Model Evaluation",
+        "question": "Why is cross-validation useful?",
+        "options": [
+          "It removes all need for data cleaning",
+          "It gives a more stable estimate of generalization performance",
+          "It reduces model complexity",
+          "It guarantees best accuracy"
+        ],
+        "answer": "B",
+        "explanation": "Cross-validation helps estimate model performance on unseen data while reducing variance."
+      },
+      {
+        "id": "q3",
+        "skill": "Feature Engineering",
+        "question": "What is the purpose of feature scaling?",
+        "options": [
+          "To change labels",
+          "To make features comparable for algorithms sensitive to magnitude",
+          "To remove all non-numeric columns",
+          "To increase sample size"
+        ],
+        "answer": "B",
+        "explanation": "Scaling helps algorithms like k-NN and logistic regression perform better when feature magnitudes differ."
+      },
+      {
+        "id": "q4",
+        "skill": "Machine Learning",
+        "question": "A model that memorizes training data and performs poorly on unseen data is exhibiting what issue?",
+        "options": [
+          "Overfitting",
+          "Underfitting",
+          "Bias reduction",
+          "Data leakage"
+        ],
+        "answer": "A",
+        "explanation": "Overfitting occurs when a model captures training noise and fails to generalize."
+      }
+    ]
+  },
+  {
+    "id": "data-science-foundations",
+    "title": "Data Science Foundations",
+    "description": "Assesses core analytics, visualization, and statistical reasoning for data science roles.",
+    "skills": ["Statistics", "Data Cleaning", "Data Visualization", "Model Evaluation"],
+    "questions": [
+      {
+        "id": "d1",
+        "skill": "Statistics",
+        "question": "Which metric is most commonly used to summarize the average of a numeric dataset?",
+        "options": [
+          "Median",
+          "Variance",
+          "Mean",
+          "Mode"
+        ],
+        "answer": "C",
+        "explanation": "The mean is the arithmetic average and is often used for numeric summaries."
+      },
+      {
+        "id": "d2",
+        "skill": "Data Cleaning",
+        "question": "Why is missing-value handling important in analytics workflows?",
+        "options": [
+          "It guarantees better model accuracy on every dataset",
+          "It prevents biased or misleading insights from incomplete data",
+          "It removes the need for validation",
+          "It automatically creates new features"
+        ],
+        "answer": "B",
+        "explanation": "Missing values can distort analysis and bias models if not handled appropriately."
+      },
+      {
+        "id": "d3",
+        "skill": "Data Visualization",
+        "question": "Which plot is best suited for showing the distribution of a single numeric variable?",
+        "options": [
+          "Scatter plot",
+          "Histogram",
+          "Bar chart",
+          "Heatmap"
+        ],
+        "answer": "B",
+        "explanation": "A histogram is specifically designed to show the distribution of values for one variable."
+      },
+      {
+        "id": "d4",
+        "skill": "Model Evaluation",
+        "question": "What is the purpose of using a validation set when evaluating a model?",
+        "options": [
+          "To ensure the final code runs without errors",
+          "To estimate how well the model generalizes to unseen data",
+          "To collect more training samples",
+          "To reduce the number of features"
+        ],
+        "answer": "B",
+        "explanation": "A validation set helps estimate generalization performance without testing on the final full dataset."
+      }
+    ]
+  },
+  {
+    "id": "deep-learning-check",
+    "title": "Deep Learning Essentials",
+    "description": "Assesses neural net basics and optimization.",
+    "skills": ["Deep Learning", "Neural Networks", "PyTorch"],
+    "questions": [
+      {
+        "id": "d1",
+        "skill": "Neural Networks",
+        "question": "What is the role of an activation function in a neural network?",
+        "options": [
+          "It stores parameters",
+          "It introduces non-linearity",
+          "It cleans the dataset",
+          "It handles deployment"
+        ],
+        "answer": "B",
+        "explanation": "Activation functions allow neural networks to learn nonlinear decision boundaries."
+      },
+      {
+        "id": "d2",
+        "skill": "Deep Learning",
+        "question": "Which optimization technique is commonly used to train neural networks?",
+        "options": [
+          "Gradient descent",
+          "Naive Bayes",
+          "K-means",
+          "PCA"
+        ],
+        "answer": "A",
+        "explanation": "Gradient descent updates weights by moving in the direction of negative gradient."
+      },
+      {
+        "id": "d3",
+        "skill": "PyTorch",
+        "question": "In PyTorch, what is a common way to define a model?",
+        "options": [
+          "A dictionary",
+          "A class inheriting from nn.Module",
+          "A SQL table",
+          "A JSON file"
+        ],
+        "answer": "B",
+        "explanation": "PyTorch models are typically built with nn.Module subclasses."
+      },
+      {
+        "id": "d4",
+        "skill": "Deep Learning",
+        "question": "What is the purpose of a validation set?",
+        "options": [
+          "To measure performance on unseen data during training",
+          "To generate the final model",
+          "To deploy the model",
+          "To build Docker images"
+        ],
+        "answer": "A",
+        "explanation": "A validation set helps monitor generalization during model development."
+      }
+    ]
+  },
+  {
+    "id": "software-engineering-foundations",
+    "title": "Software Engineering Foundations",
+    "description": "Assesses programming, algorithms, testing, and API development fundamentals.",
+    "skills": ["Programming Fundamentals", "Data Structures", "Testing", "REST APIs"],
+    "questions": [
+      {
+        "id": "se1",
+        "skill": "Data Structures",
+        "question": "Which data structure follows a last-in, first-out access pattern?",
+        "options": ["Queue", "Stack", "Linked list", "Hash map"],
+        "answer": "B",
+        "explanation": "A stack removes the most recently added element first."
+      },
+      {
+        "id": "se2",
+        "skill": "Testing",
+        "question": "What is the main purpose of a unit test?",
+        "options": ["Test one small behavior in isolation", "Deploy code to production", "Replace code review", "Create a database"],
+        "answer": "A",
+        "explanation": "Unit tests verify focused behavior independently from the rest of the system."
+      },
+      {
+        "id": "se3",
+        "skill": "REST APIs",
+        "question": "Which HTTP method is conventionally used to create a new resource?",
+        "options": ["GET", "POST", "DELETE", "PATCH"],
+        "answer": "B",
+        "explanation": "POST is conventionally used for resource creation."
+      },
+      {
+        "id": "se4",
+        "skill": "Programming Fundamentals",
+        "question": "Why is version control useful in a software project?",
+        "options": ["It removes the need for tests", "It tracks changes and enables collaboration", "It writes code automatically", "It replaces deployment"],
+        "answer": "B",
+        "explanation": "Version control records change history and supports safe collaboration."
+      }
+    ]
+  }
+]

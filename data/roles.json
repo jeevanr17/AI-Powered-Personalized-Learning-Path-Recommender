@@ -1,0 +1,19 @@
+{
+  "roles": [
+    {
+      "name": "Machine Learning Engineer",
+      "description": "Builds production ML systems and end-to-end pipelines.",
+      "target_skills": {
+        "Python": 4,
+        "Statistics": 4,
+        "Machine Learning": 4,
+        "Model Evaluation": 4,
+        "Deep Learning": 3,
+        "PyTorch": 3,
+        "Model Deployment": 3,
+        "Docker": 3,
+        "MLOps": 3
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "roles": {
+    "Machine Learning Engineer": {
+      "skills": {
+        "Python": 4,
+        "Programming Fundamentals": 3,
+        "Git": 3,
+        "Data Structures": 3,
+        "Statistics": 4,
+        "Probability": 3,
+        "Linear Algebra": 3,
+        "NumPy": 4,
+        "Pandas": 4,
+        "Data Cleaning": 3,
+        "Data Visualization": 3,
+        "SQL": 3,
+        "Machine Learning": 4,
+        "Supervised Learning": 4,
+        "Unsupervised Learning": 3,
+        "Feature Engineering": 4,
+        "Model Evaluation": 4,
+        "Cross Validation": 3,
+        "Hyperparameter Tuning": 3,
+        "Deep Learning": 3,
+        "Neural Networks": 3,
+        "PyTorch": 3,
+        "TensorFlow": 2,
+        "NLP": 3,
+        "Computer Vision": 2,
+        "Transformers": 3,
+        "Model Deployment": 3,
+        "REST APIs": 3,
+        "FastAPI concepts": 3,
+        "Docker": 3,
+        "Cloud Fundamentals": 2,
+        "MLOps": 3,
+        "Experiment Tracking": 3,
+        "Model Monitoring": 3,
+        "CI/CD": 3,
+        "ML System Design": 3
+      }
+    },
+    "Data Scientist": {
+      "skills": {
+        "Python": 4,
+        "SQL": 4,
+        "Statistics": 4,
+        "Probability": 3,
+        "Data Cleaning": 4,
+        "Data Visualization": 4,
+        "Exploratory Data Analysis": 4,
+        "Feature Engineering": 4,
+        "Machine Learning": 4,
+        "Model Evaluation": 4,
+        "A/B Testing": 3,
+        "NLP": 3,
+        "Business Communication": 3,
+        "Data Storytelling": 3,
+        "Dashboarding": 3,
+        "Feature Selection": 3,
+        "Supervised Learning": 4,
+        "Unsupervised Learning": 3,
+        "Deep Learning": 2
+      }
+    },
+    "Software Engineer": {
+      "skills": {
+        "Programming Fundamentals": 4,
+        "Python": 3,
+        "Data Structures": 4,
+        "Algorithms": 4,
+        "Object-Oriented Programming": 3,
+        "Git": 3,
+        "Testing": 3,
+        "Databases": 3,
+        "SQL": 3,
+        "REST APIs": 3,
+        "System Design": 3,
+        "Docker": 2,
+        "CI/CD": 2,
+        "Cloud Fundamentals": 2
+      }
+    }
+  }
+}

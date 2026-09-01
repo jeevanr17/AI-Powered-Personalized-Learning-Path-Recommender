@@ -9,7 +9,7 @@ This project is a Streamlit-based learning recommendation platform for learners 
 - Prerequisite-aware learning graph
 - Structured resource retrieval and hybrid ranking
 - Time feasibility and roadmap generation
-- AI-style explanations using structured facts
+- AI-style explanations using structured facts 
 - Progress tracking and assessments
 - Adaptive remediation after weak assessment results
 - MongoDB-backed profiles, roadmaps, completion state, assessment results, feedback, and chat history
